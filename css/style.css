@@ -6357,16 +6357,23 @@ ul.portfolio-nav li.active{
 
 .container_info_0 {
 
-    border: 5px solid #dd016b;
+  /*   border: 5px solid #dd016b; */
     align-self: center !important;
     top: -1000px;
     list-style: none;
     display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
     position: absolute;
     text-align: center;
-    padding: 14rem 6rem 3rem 6rem;
-    border-radius: 0 0 5rem 5rem;
+    padding: 16rem 2rem;
+    align-content: center;
+    justify-self: center;
+  /*   border-radius: 0 0 5rem 5rem; */
     border-top: none;
+    background-image: url('../img/svg/container-up.svg');
+    
 }
 
 .container_info_a {
