@@ -5837,12 +5837,12 @@ ul.portfolio-nav li.active{
     padding: 8px 30px;
     cursor: pointer;
     font-weight: bold;
-    margin: 0 auto;
     display: block;
     width: 190px;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 3rem;
+    margin-left: 1rem;
 }
 
 .title_somos, .service_box_container, .somos_img, .somos_text_a, .somos_text_b, .about_btn_new {
@@ -5862,10 +5862,10 @@ ul.portfolio-nav li.active{
 
 
 }
-.somos_text_a, .somos_text_b{
-    font-size: 15px;
+.somos_text_a{
+    font-size: 26px;
     color: #fff;
-    line-height: 28px;
+    line-height: 40px;
     font-weight: 400;
     padding: 1rem;
     Font-family: 'Raleway', Sans-serif;
@@ -5873,7 +5873,13 @@ ul.portfolio-nav li.active{
 .somos_text_b{
     padding: 0;
     margin-top: 1rem;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 700;
+    Font-family: 'Raleway', Sans-serif;
 }
+
 
 
 .somos_lg_4, .somos_lg_12{

@@ -45,7 +45,7 @@ $(document).on('ready', function () {
         pauseOnHover: false,
         pauseOnFocus: true,
         //adaptiveHeight: true
-        touchMove: false,
+        touchMove: true,
     });
 
 
