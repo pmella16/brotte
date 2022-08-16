@@ -129,7 +129,7 @@ $(document).on('ready', function () {
                        
 
                             console.log(i);
-                            $(this).delay(i * (duration / 8)).animate({ opacity: 1 }, duration);
+                            $(this).delay(i * (duration / 4)).animate({ opacity: 1 }, duration);
                         
                     
                 });
