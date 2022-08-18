@@ -5549,8 +5549,8 @@ form button[type='submit'] {
   /* Location, Phone, Email Section */
   .contact-list {
     list-style-type: none;
-    margin-left: -30px;
-    padding-right: 20px;
+/*     margin-left: -30px;
+    padding-right: 20px; */
   }
   
   .list-item {
@@ -5669,13 +5669,17 @@ form button[type='submit'] {
   }
 
   #contact-area {
-    background-image: url(../img/bg/separator-bg.jpeg);
+   /*  background-image: url(../img/contact/desktop.png);
     background-size: cover;
     background-position: bottom center;
     overflow: hidden;
     padding: 120px 0 90px;
     position: relative;
-    background-attachment: scroll;
+    background-attachment: scroll; */
+    background-image: url(../img/contact/desktop.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
 }
 
 #contact-area:after {
