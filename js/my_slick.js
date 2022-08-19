@@ -27,9 +27,10 @@ $(document).on('ready', function () {
 
             });
             
+        var myAutoplay = false;
 
         $el.slick({
-        autoplay: true,
+        autoplay: myAutoplay,
         autoplaySpeed: 5000,
         dots: true,
         draggable: true,
@@ -48,8 +49,10 @@ $(document).on('ready', function () {
         touchMove: true,
     });
 
+    if (myAutoplay){
 
-    $('.js-slick').on( 'touchend touchcancel touchmove', function() { $(this).slick('slickPlay'); } );
+        $('.js-slick').on( 'touchend touchcancel touchmove', function() { $(this).slick('slickPlay'); } );
+    }
 
     $('.js-slick').on('setPosition', function(event, slick, currentSlide){
         console.log('setPosition', [event, slick, currentSlide]);
