@@ -29,7 +29,7 @@ $(document).on('ready', function () {
             
 
         $el.slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 5000,
         dots: true,
         draggable: true,

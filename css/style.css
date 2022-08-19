@@ -5898,16 +5898,16 @@ ul.portfolio-nav li.active{
 }
 
   .service_box {
-    position: relative;
+
     background-color: #212121;
     border: 1px solid #dd016b;
     border-radius: 10px;
-    min-height: 10rem;
-    height: 70%;
+    min-height: 7rem;
+    min-width: 6rem;
     display: table;
-    background-repeat: no-repeat;
+
     text-align: center;
-    background-size: contain;
+
     color: #fff;
 
 }
@@ -6287,6 +6287,7 @@ ul.portfolio-nav li.active{
 * Wrapper
 */
 
+
 .wrapper {
     margin-right: auto;
     margin-left: auto;
@@ -6414,7 +6415,7 @@ ul.portfolio-nav li.active{
     font-weight: 700;
 }
 .anm_a_0, .container_info_a{
-    font-size: 50px !important;
+    font-size: 50px;
     color: #fff;
 }
 .anm_a_0 span, .container_info_a span{
