@@ -90,60 +90,25 @@ $(document).on('ready', function () {
             });
             console.log('complete 0');
         }
-        if (currentSlide == 1) {
-            console.log('currentSlide 1');
-            $(".container_info_1").animate({ "left": "0px" }, 800).promise().then(function () {
-                $('.anm_a_1').each(function (i) {
+        else {
+            console.log('currentSlide ', currentSlide);
+            $(".container_info_"+currentSlide).animate({ "left": "0px" }, 800).promise().then(function () {
+
+/*                 $('.container_info_a > .anm_a_'+currentSlide).each(function (i, e) {
                     console.log(i);
-                    $(this).delay(i * (duration / 2)).animate({ opacity: 1 }, duration);
-                });
-                console.log('complete 1');
-            });
-        }
-        if (currentSlide == 2) {
-            console.log('currentSlide 2');
-            $(".container_info_2").animate({ "left": "0px" }, 800).promise().then(function () {
-                $('.anm_a_2').each(function (i) {
-                    console.log(i);
-                    $(this).delay(i * (duration / 2)).animate({ opacity: 1 }, duration);
-                });
-                console.log('complete 2');
-            });
-        }
-        if (currentSlide == 3) {
-            console.log('currentSlide 3');
-
-
-            $(".container_info_3").animate({ "left": "0px" }, 800).promise().then(function () {
-                // Called when the animation in total is complete
-
-                $('.anm_a_3').each(function (i) {
-                    console.log(i);
-                    $(this).delay(i * (duration / 2)).animate({ opacity: 1 }, duration);
-                });
-                console.log('complete 3');
-            });
-
-        }
-        if (currentSlide == 4) {
-            console.log('currentSlide 4');
-
-
-            $(".container_info_4").animate({ "left": "0px" }, 800).promise().then(function () {
-                // Called when the animation in total is complete
-
-                $('.anm_a_4').each(function (i) {
-                       
-
-                            console.log(i);
-                            $(this).delay(i * (duration / 4)).animate({ opacity: 1 }, duration);
-                        
+                    console.log(e);
+              
+                }); */
+                for (let index = 1; index <= 5; index++) {
+                    $('.anm_'+currentSlide+'_h1_'+index).delay(index * (duration / 2)).animate({ opacity: 1 }, duration);
+                }
                     
-                });
-                console.log('complete 4');
+                console.log('complete ',currentSlide);
             });
-
         }
+
+
+
 
     });
 
