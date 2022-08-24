@@ -5,6 +5,7 @@ $(document).on('ready', function () {
     slideHeight = $(window).height();
     $('.slick-slider, #header-area, .photo').css('height', slideHeight);
 
+    slideWidth = $(window).width();
     $( window ).resize(function() {
         slideWidth = $(window).width();
         slideHeight = $(window).height();
@@ -28,7 +29,10 @@ $(document).on('ready', function () {
             });
             
         var myAutoplay = false;
-
+        var customDotClass = 'my-slick-dots';
+      
+        if (slideWidth > 769 ) customDotClass = 'vertical-dots';
+       
         $el.slick({
         autoplay: myAutoplay,
         autoplaySpeed: 5000,
@@ -42,7 +46,7 @@ $(document).on('ready', function () {
 
         rtl: true,
 
-        dotsClass: 'vertical-dots',
+        dotsClass: customDotClass,
         pauseOnHover: false,
         pauseOnFocus: true,
         //adaptiveHeight: true
