@@ -3,7 +3,7 @@
 
 
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 2400px) {
   .container_info_0{
     width: 58%;
     padding: 26rem 2rem;
@@ -61,6 +61,67 @@
 .somos_img img{
   width: 84%;
   margin-top: -12rem;
+  margin-left: 4rem;
+}
+}
+@media screen and (min-width: 1920px) {
+  .container_info_0{
+    width: 58%;
+    padding: 12rem 2rem;
+  }
+
+  .anm_a_0 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+  .container_info_a{
+    width: 80%;
+    height: 40rem;
+}
+
+.h1_title{
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+.h1_text{
+  font-size: 2.5rem;
+}
+.title_somos_b{
+  text-align: center;
+  font-family: 'Monserrat', sans-serif;
+  margin: 2rem 0rem;
+  font-size: 4rem;
+}
+.service_box span{
+  font-size: 1.2rem;
+}
+.service_box{
+  min-height: 10rem;
+}
+.service_box_p {
+  font-size: 12px;
+  color: rgb(255 255 255 / 61%);
+}
+.about_btn, .about_btn:hover{
+  font-size: 1.5rem;
+  margin-left: 24rem;
+  margin-top: 6rem;
+  border-radius: 3rem;
+}
+
+.about_btn_new{
+  margin-top: 3rem;
+}
+.title_somos_a{
+  font-size: 12rem;
+}
+.somos_text_a{
+  font-size: 32px;
+}
+.somos_img img{
+  width: 84%;
+  margin-top: 0rem;
   margin-left: 4rem;
 }
 }
