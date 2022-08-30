@@ -5555,14 +5555,14 @@ form button[type='submit'] {
   
   .list-item {
     line-height: 4;
-    color: #aaa;
+    color: white;
     font-family: 'Josefin Sans', sans-serif;
   }
   
   .contact-text {
     font: 300 16px 'Lato', sans-serif;
     letter-spacing: 1.9px;
-    color: #bbb;
+    color: white;
     /* font-family: 'Josefin Sans', sans-serif; */
     font-size: 24px;
   }
@@ -5580,7 +5580,7 @@ form button[type='submit'] {
   }
   
   .contact-text a {
-    color: #bbb;
+    color: white;
     text-decoration: none;
     transition-duration: 0.2s;
   }
@@ -5678,7 +5678,7 @@ form button[type='submit'] {
     background-attachment: scroll; */
     background-image: url(../img/contact/desktop.png);
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-position:center;
 }
 
