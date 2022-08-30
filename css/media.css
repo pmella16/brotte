@@ -117,7 +117,7 @@
   font-size: 12rem;
 }
 .somos_text_a{
-  font-size: 32px;
+  font-size: 30px;
 }
 .somos_img img{
   width: 84%;
@@ -256,12 +256,17 @@
  }
 @media (max-width: 428px) { 
   .container_info_0 {
-    padding: 9rem 2rem;
+
+    background-image: url('../img/svg/completo.svg');
+    margin-top: 10rem;
+    padding: 5rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .container_info_a{
     width: 94%;
-    padding: 1rem 2rem 0rem 3rem;
+    padding: 1rem 2rem 0rem 2rem;
     top: 23%;
   }
   .anm_a_0{
@@ -269,20 +274,50 @@
   }
   .h1_title{
     font-size: 1.4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   .h1_text {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
-.full_container_a, .full_container_b{
+.full_container_a{
   padding: 2rem;
 }
+
+.full_container_b {
+  padding: 0rem 2rem 2rem 2rem;
+}
 .title_somos_a{
-  font-size: 54px;
+  font-size: 76px;
 }
 .service_box span{
   font-size: 12px;
+  line-height: 22px;
+
+}
+
+.about_btn, .about_btn:hover{
+  padding: 0.2rem 0rem;
+  margin-left: 6rem;
+  width: 9rem;
+  margin-top: 2rem;
+}
+.about_btn_new, .about_btn_new:hover{
+/*   margin-left: 0; */
+width: 20rem;
+}
+
+.somos_text_a{
+  font-size: 18px;
+  line-height: 22px;
+}
+.somos_text_b{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.somos_lg_12{
+  padding: 0rem 2rem;
 }
  }
 
@@ -290,7 +325,7 @@
  /* Small devices (tablets, 425px and down) */
 @media (max-width: 425px) { 
   .container_info_0 {
-    padding: 7rem 2rem;
+  /*   padding: 7rem 2rem; */
   }
 
 }
@@ -300,7 +335,7 @@
   }
   .container_info_a{
     width: 94%;
-    padding: 1rem 2rem 0rem 3rem;
+    padding: 1rem 2rem 0rem 2rem;
     top: 20%;
   }
   .anm_a_0{
@@ -334,6 +369,10 @@
 }
 }
 @media (max-width: 320px) { 
+
+  .title_somos_a{
+    font-size: 54px;
+  }
   .anm_a_0 {
     font-size: 1.2rem;
 }
@@ -343,5 +382,9 @@
 }
 .container_info_a{
   top: 13%;
+}
+.container_info_0 {
+
+  margin-top: 4rem;
 }
 }

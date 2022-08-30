@@ -392,6 +392,7 @@
     });
 
     $('.first_filter').trigger( "click" );
+    
     $('.portfolio-nav').on('click', 'li', function() {
         $('.portfolio-nav li.active').removeClass('active');
         $(this).addClass('active');
