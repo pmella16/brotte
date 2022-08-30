@@ -247,10 +247,11 @@
  }
 @media (max-width: 768px) { 
   #contact-area {
-    background-image: url(../img/contact/mobile.png);
-    background-repeat:no-repeat;
+    background-image: none;
+/*     background-repeat:no-repeat;
     background-size:cover;
-    background-position:center;
+    background-position:center; */
+    background-color: #282828;
 }
 
  }
