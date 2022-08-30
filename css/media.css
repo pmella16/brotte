@@ -167,8 +167,6 @@
 /* Small devices (tablets, 768px and down) */
 @media (min-width: 769px) { 
 
-
-
 /* vertical dots*/
 .wrapper {
   margin-right: auto;
@@ -248,7 +246,12 @@
 
  }
 @media (max-width: 768px) { 
-
+  #contact-area {
+    background-image: url(../img/contact/mobile.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
 
  }
 @media (max-width: 428px) { 
