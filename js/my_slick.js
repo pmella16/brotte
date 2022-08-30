@@ -72,6 +72,7 @@ $(document).on('ready', function () {
         $(".anm_a_2").css({ opacity: 0 });
         $(".anm_a_3").css({ opacity: 0 });
         $(".anm_a_4").css({ opacity: 0 });
+        $(".about_btn").css({ opacity: 0 });
         $(".container_info_a").css({ left: -1000 });
         $(".container_info_0").css({ top: -1000 });
 
@@ -99,7 +100,7 @@ $(document).on('ready', function () {
                     console.log(e);
               
                 }); */
-                for (let index = 1; index <= 5; index++) {
+                for (let index = 1; index <= 6; index++) {
                     $('.anm_'+currentSlide+'_h1_'+index).delay(index * (duration / 2)).animate({ opacity: 1 }, duration);
                 }
                     
