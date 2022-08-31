@@ -5896,7 +5896,7 @@ ul.portfolio-nav li.active{
     font-size: 20px;
     color: #fff;
     line-height: 28px;
-    font-weight: 700;
+    /* font-weight: 700; */
     Font-family: 'Raleway', Sans-serif;
 }
 
