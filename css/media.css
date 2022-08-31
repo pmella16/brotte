@@ -68,12 +68,12 @@
 
 @media (max-width: 1920px) {
   .container_info_0{
-    width: 58%;
+    width: 49%;
     padding: 12rem 2rem;
   }
 
   .anm_a_0 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #fff;
 }
 
@@ -126,7 +126,7 @@
 }
 .somos_img img{
   width: 84%;
-  margin-top: 0rem;
+  margin-top: -4rem;
   margin-left: 4rem;
 }
 }
