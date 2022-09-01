@@ -6,7 +6,6 @@
 @media (max-width: 3000px)  {
   .container_info_0{
     width: 58%;
-    padding: 26rem 2rem;
   }
 
   .anm_a_0 {
@@ -69,7 +68,7 @@
 @media (max-width: 1920px) {
   .container_info_0{
     width: 49%;
-    padding: 12rem 2rem;
+
   }
 
   .anm_a_0 {
@@ -155,8 +154,8 @@
   }
 
   .container_info_0 {
-    width: 54%;
-    padding: 12rem 2rem;
+    width: 65%;
+
 }
 
 .anm_a_0 {
@@ -298,9 +297,7 @@
 
   background-image: url('../img/svg/completo.svg');
   margin-top: 8rem;
-  padding: 5rem 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+
   width: 96%;
 }
 

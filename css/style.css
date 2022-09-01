@@ -6306,21 +6306,19 @@ ul.portfolio-nav li.active{
 
 .container_info_0 {
 
-  /*   border: 5px solid #dd016b; */
     align-self: center !important;
     top: -1000px;
     list-style: none;
-    display: block;
+    display: grid;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 77%;
     position: absolute;
     text-align: center;
-    padding: 16rem 2rem;
     align-content: center;
-    justify-self: center;
-  /*   border-radius: 0 0 5rem 5rem; */
-  /*   border-top: none; */
+    padding-bottom: 7rem;
+    justify-content: center;
+    align-items: center;
     background-image: url('../img/svg/container-up.svg');
     
 }
