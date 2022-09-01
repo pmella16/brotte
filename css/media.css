@@ -149,10 +149,37 @@
 
 
 /* Large devices (large desktops, 1200px and down) */
-@media (max-width: 1200px) { 
+@media (max-width: 1280px) { 
   .service_box span{
     font-size: 12px;
   }
+
+  .container_info_0 {
+    width: 54%;
+    padding: 12rem 2rem;
+}
+
+.anm_a_0 {
+  font-size: 2.8rem;
+  color: #fff;
+}
+
+.h1_title {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.h1_text {
+  font-size: 1.6rem;
+}
+
+.about_btn, .about_btn:hover {
+  font-size: 1.2rem;
+  margin-left: 6rem;
+  margin-top: 3rem;
+  border-radius: 3rem;
+}
+
 }
 
 /* Medium devices (desktops, 992px and down) */
