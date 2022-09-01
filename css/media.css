@@ -146,7 +146,7 @@
 
 
 
-/* Large devices (large desktops, 1200px and down) */
+/* Landscape devices (large desktops, 1200px and down) */
 @media (max-width: 1280px) { 
   .service_box span{
     font-size: 12px;
@@ -180,6 +180,43 @@
 }
 
 }
+
+/* Landscape devices (large desktops, 1194px and down) */
+@media (max-width: 1194px) { 
+  .service_box span{
+    font-size: 12px;
+  }
+
+  .container_info_0 {
+    width: 50%;
+    height: 70%;
+
+}
+
+.anm_a_0 {
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+.h1_title {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.h1_text {
+  font-size: 1.6rem;
+}
+
+.about_btn, .about_btn:hover {
+  font-size: 1.2rem;
+  margin-left: 0rem;
+  margin-top: 2rem;
+  border-radius: 3rem;
+}
+
+}
+
+
 
 /* Medium devices (desktops, 992px and down) */
 @media (max-width: 992px) { 
