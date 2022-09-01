@@ -253,6 +253,42 @@
 
 }
 
+/* Landscape devices (large desktops, 1104px and down) */
+@media (max-width: 1104px) { 
+  .service_box span{
+    font-size: 12px;
+  }
+
+  .container_info_0 {
+    width: 56%;
+    height: 76%;
+
+}
+
+.anm_a_0 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.h1_title {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  margin-right: 75px;
+}
+
+.h1_text {
+  font-size: 1.4rem;
+}
+
+.about_btn, .about_btn:hover {
+  font-size: 1.2rem;
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+  border-radius: 3rem;
+}
+
+}
+
 
 /* Medium devices (desktops, 992px and down) */
 @media (max-width: 992px) { 
