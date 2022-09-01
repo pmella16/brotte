@@ -6312,11 +6312,12 @@ ul.portfolio-nav li.active{
     display: grid;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 77%;
+    height: 90%;
+    width: 50%;
     position: absolute;
     text-align: center;
     align-content: center;
-    padding-bottom: 7rem;
+    padding: 3rem;
     justify-content: center;
     align-items: center;
     background-image: url('../img/svg/container-up.svg');
