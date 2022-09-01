@@ -4664,7 +4664,7 @@ span.blog-date {
 #contact-area {
     overflow: hidden;
     padding: 120px 0 90px;
-    background: #0b121f;
+    background: #212121;
     position: relative;
 }
 
@@ -5676,7 +5676,7 @@ form button[type='submit'] {
     padding: 120px 0 90px;
     position: relative;
     background-attachment: scroll; */
-    background-image: url(../img/contact/desktop.jpg);
+    background-image: url(../img/contact/desktop.png);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
