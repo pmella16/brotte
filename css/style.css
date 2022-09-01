@@ -6220,6 +6220,7 @@ ul.portfolio-nav li.active{
     border: 0;
     outline: none;
     background: transparent;
+    margin-top: 2rem;
 }
 
 .my-slick-dots li button:hover,

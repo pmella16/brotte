@@ -31,7 +31,7 @@ $(document).on('ready', function () {
         var myAutoplay = false;
         var customDotClass = 'my-slick-dots';
       
-        if (slideWidth > 769 ) customDotClass = 'vertical-dots';
+        if (slideWidth > 885 ) customDotClass = 'vertical-dots';
        
         $el.slick({
         autoplay: myAutoplay,
