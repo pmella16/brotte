@@ -5,8 +5,7 @@
 
 @media (max-width: 3000px)  {
   .container_info_0{
-    width: 58%;
-    padding: 26rem 2rem;
+/*     width: 58%; */
   }
 
   .anm_a_0 {
@@ -68,8 +67,7 @@
 
 @media (max-width: 1920px) {
   .container_info_0{
-    width: 49%;
-    padding: 12rem 2rem;
+
   }
 
   .anm_a_0 {
@@ -155,8 +153,8 @@
   }
 
   .container_info_0 {
-    width: 54%;
-    padding: 12rem 2rem;
+
+
 }
 
 .anm_a_0 {
@@ -203,10 +201,10 @@
   font-size: 20px;
 }
 }
-/* Small devices (tablets, 768px and down) */
-@media (min-width: 769px) { 
+/* tables up */
+@media (min-width: 885px) { 
 
-/* vertical dots*/
+/* vertical dots tambien hay que cambiar la resolucion en my_slick.js*/
 .wrapper {
   margin-right: auto;
   margin-left: auto;
@@ -284,7 +282,7 @@
 /* vertical dots*/
 
  }
-@media (max-width: 768px) { 
+@media (max-width: 884px) { 
   #contact-area {
     background-image: none;
 /*     background-repeat:no-repeat;
@@ -293,71 +291,63 @@
     background-color: #282828;
 }
 
+
+.container_info_0 {
+
+  background-image: url('../img/svg/completo.svg');
+  margin-top: 8rem;
+
+  width: 96%;
+}
+
  }
 @media (max-width: 428px) { 
-  .container_info_0 {
 
-    background-image: url('../img/svg/completo.svg');
-    margin-top: 10rem;
-    padding: 5rem 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
 
   .container_info_a{
-    width: 94%;
-    padding: 1rem 2rem 0rem 2rem;
-    top: 23%;
+
   }
   .anm_a_0{
-    font-size: 1.5rem;
+
   }
   .h1_title{
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
+
   }
   .h1_text {
-    font-size: 1rem;
+
 }
 
 .full_container_a{
-  padding: 2rem;
+
 }
 
 .full_container_b {
-  padding: 0rem 2rem 2rem 2rem;
+
 }
 .title_somos_a{
-  font-size: 76px;
+
 }
 .service_box span{
-  font-size: 12px;
-  line-height: 22px;
+
 
 }
 
 .about_btn, .about_btn:hover{
-  padding: 0.2rem 0rem;
-  margin-left: 6rem;
-  width: 9rem;
-  margin-top: 2rem;
+
 }
 .about_btn_new, .about_btn_new:hover{
-/*   margin-left: 0; */
-width: 20rem;
+
 }
 
 .somos_text_a{
-  font-size: 18px;
-  line-height: 22px;
+
 }
 .somos_text_b{
-  font-size: 14px;
-  line-height: 22px;
+
 }
 
 .somos_lg_12{
-  padding: 0rem 2rem;
+
 }
  }
 
@@ -371,60 +361,55 @@ width: 20rem;
 }
 @media (max-width: 375px) { 
   .container_info_0 {
-    padding: 7rem 2rem;
+  
   }
   .container_info_a{
-    width: 94%;
-    padding: 1rem 2rem 0rem 2rem;
-    top: 20%;
+
   }
   .anm_a_0{
-    font-size: 1.4rem;
+
   }
   .h1_title{
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+
   }
   .h1_text {
-    font-size: 1rem;
+ 
   }
   .full_container_a, .full_container_b{
-    padding: 1rem;
+
   }
   .somos_text_b{
-    padding-left: 1rem;
+
   }
 }
 
 @media (max-width: 360px) { 
   .container_info_0 {
-    padding: 6rem 2rem;
+
   }
   .container_new .container {
-    padding-left: 1.5rem;
-    padding-right: 2rem;
+
 }
 .container_info_a{
-  top: 23%;
+
 }
 }
 @media (max-width: 320px) { 
 
   .title_somos_a{
-    font-size: 54px;
+  
   }
   .anm_a_0 {
-    font-size: 1.2rem;
+  
 }
   .container_new .container {
-    padding-left: 0.5rem;
-    padding-right: 2rem;
+
 }
 .container_info_a{
-  top: 13%;
+ 
 }
 .container_info_0 {
 
-  margin-top: 4rem;
+
 }
 }
