@@ -143,22 +143,20 @@
 
 }
 
-
-
-
-/* Large devices (large desktops, 1200px and down) */
+/* Landscape devices (large desktops, 1200px and down) */
 @media (max-width: 1280px) { 
   .service_box span{
     font-size: 12px;
   }
 
   .container_info_0 {
-
+    width: 47%;
+    height: 70%;
 
 }
 
 .anm_a_0 {
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   color: #fff;
 }
 
@@ -173,13 +171,156 @@
 
 .about_btn, .about_btn:hover {
   font-size: 1.2rem;
-  margin-left: 6rem;
+  margin-left: 3rem;
   margin-top: 3rem;
+  border-radius: 3rem;
+  padding: 0.5rem 3rem;
+}
+
+}
+
+/* Landscape devices (large desktops, 1194px and down) */
+@media (max-width: 1194px) { 
+  .service_box span{
+    font-size: 12px;
+  }
+
+  .container_info_0 {
+    width: 50%;
+    height: 70%;
+
+}
+
+.anm_a_0 {
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+.h1_title {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.h1_text {
+  font-size: 1.6rem;
+}
+
+.about_btn, .about_btn:hover {
+  font-size: 1.2rem;
+  margin-left: 0rem;
+  margin-top: 2rem;
   border-radius: 3rem;
 }
 
 }
 
+/* Landscape devices (large desktops, 1180px and down) */
+@media (max-width: 1180px) { 
+  .service_box span{
+    font-size: 12px;
+  }
+
+  .container_info_0 {
+    width: 50%;
+    height: 70%;
+
+}
+
+.anm_a_0 {
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+.h1_title {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  margin-right: 75px;
+}
+
+.h1_text {
+  font-size: 1.6rem;
+}
+
+.about_btn, .about_btn:hover {
+  font-size: 1.2rem;
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+  border-radius: 3rem;
+}
+
+}
+
+/* Landscape devices (large desktops, 1104px and down) */
+@media (max-width: 1104px) { 
+  .service_box span{
+    font-size: 12px;
+  }
+
+  .container_info_0 {
+    width: 56%;
+    height: 76%;
+
+}
+
+.anm_a_0 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.h1_title {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  margin-right: 75px;
+}
+
+.h1_text {
+  font-size: 1.4rem;
+}
+
+.about_btn, .about_btn:hover {
+  font-size: 1.2rem;
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+  border-radius: 3rem;
+}
+
+}
+
+/* Landscape devices (large desktops, 1024px and down) */
+@media (max-width: 1024px) { 
+  .service_box span{
+    font-size: 12px;
+  }
+
+  .container_info_0 {
+    width: 56%;
+    height: 69%;
+
+}
+
+.anm_a_0 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.h1_title {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  margin-right: 75px;
+}
+
+.h1_text {
+  font-size: 1.2rem;
+}
+
+.about_btn, .about_btn:hover {
+  font-size: 1.2rem;
+  margin-left: -2rem;
+  margin-top: 1.2rem;
+  border-radius: 3rem;
+}
+
+}
 /* Medium devices (desktops, 992px and down) */
 @media (max-width: 992px) { 
   .container_info_a{
