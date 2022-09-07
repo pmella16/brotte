@@ -31,7 +31,20 @@ $(document).on('ready', function () {
         var myAutoplay = false;
         var customDotClass = 'my-slick-dots';
       
-        if (slideWidth > 885 ) customDotClass = 'vertical-dots';
+        var video1 = document.getElementById('video1');
+        var video2 = document.getElementById('video2');
+        var video3 = document.getElementById('video3');
+        video1.setAttribute("src", './recursos/corporativo-m.mp4');
+        video2.setAttribute("src", './recursos/videoyfoto-m.mp4');
+        video3.setAttribute("src", './recursos/animacion-m.mp4');
+
+
+        if (slideWidth > 885 ) {
+            customDotClass = 'vertical-dots';
+            video1.setAttribute("src", './recursos/corporativo.mp4');
+            video2.setAttribute("src", './recursos/videoyfoto.mp4');
+            video3.setAttribute("src", './recursos/animacion.mp4');
+        }
        
         $el.slick({
         autoplay: myAutoplay,
