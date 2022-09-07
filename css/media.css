@@ -143,6 +143,12 @@
 
 }
 
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> fd1ef94e08c0f4dba29275cb12b2e80e41165fce
 /* Landscape devices (large desktops, 1200px and down) */
 @media (max-width: 1280px) { 
   .service_box span{
@@ -321,6 +327,11 @@
 }
 
 }
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> fd1ef94e08c0f4dba29275cb12b2e80e41165fce
 /* Medium devices (desktops, 992px and down) */
 @media (max-width: 992px) { 
   .container_info_a{
