@@ -596,6 +596,9 @@
 .about_btn_new, .about_btn_new:hover{
   width: auto;
 }
+.full_container_a, .full_container_b{
+  padding: 3rem;
+}
 .full_container_b{
   padding-top: 0;
 }
@@ -605,9 +608,12 @@
   margin-top: 0;
 }
 
+
 .title_somos_b{
   font-size: 2.5rem;
 }
+
+
   .container_new .container {
 padding: 0;
 }
@@ -864,8 +870,8 @@ padding: 0;
 }
   .container_new .container {
     padding: 0;
-    width: 125%;
-    margin-left: -17%;
+    width: 108%;
+    margin-left: -8%;
 }
 
 .h1_title{
