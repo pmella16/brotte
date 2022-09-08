@@ -1,5 +1,10 @@
 $(document).on('ready', function () {
 
+
+    var video1 = document.getElementById('video1');
+    var video2 = document.getElementById('video2');
+    var video3 = document.getElementById('video3');
+    
     var duration = 600;
 
     slideHeight = $(window).height();
@@ -31,9 +36,8 @@ $(document).on('ready', function () {
         var myAutoplay = true;
         var customDotClass = 'my-slick-dots';
       
-        var video1 = document.getElementById('video1');
-        var video2 = document.getElementById('video2');
-        var video3 = document.getElementById('video3');
+
+
         video1.setAttribute("src", './recursos/corporativo-m.mp4');
         video2.setAttribute("src", './recursos/videoyfoto-m.mp4');
         video3.setAttribute("src", './recursos/animacion-m.mp4');
