@@ -28,7 +28,7 @@ $(document).on('ready', function () {
 
             });
             
-        var myAutoplay = false;
+        var myAutoplay = true;
         var customDotClass = 'my-slick-dots';
       
         var video1 = document.getElementById('video1');
