@@ -5678,7 +5678,7 @@ form button[type='submit'] {
     background-attachment: scroll; */
     background-image: url(../img/contact/desktop.png);
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:contain;
     background-position:center;
 }
 
